@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A"
+        android:text="Phương trình bậc 1"
+        android:textAlignment="center"
+        android:textColor="#0C29CC"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hệ số a:" />
+
+    <EditText
+        android:id="@+id/edtHeSoA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập hệ số a ở đây..."
+        android:inputType="numberSigned" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hệ số b:" />
+
+    <EditText
+        android:id="@+id/edtHeSoB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập hệ số b ở đây..."
+        android:inputType="numberSigned" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="xuLyGiai"
+            android:id="@+id/btnGiai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Giải" />
+
+        <Button
+            android:onClick="xuLyThoat"
+            android:id="@+id/btnThoat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Thoát" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả:"
+        android:textColor="#DA1C1C" />
+
+    <TextView
+        android:id="@+id/txtKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kết quả sẽ hiển thị ở đây..." />
+</LinearLayout>
