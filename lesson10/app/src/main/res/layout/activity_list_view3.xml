@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListView3Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập mã:"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtMa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập mã ở đây..."
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập tên:"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập tên ở đây..."
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập SDT:"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtSDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập số điện thoại ở đây..."
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm" />
+
+    <ListView
+        android:id="@+id/lvContact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
