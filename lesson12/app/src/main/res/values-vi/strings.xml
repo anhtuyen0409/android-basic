@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Học đa ngôn ngữ</string>
+    <string name="strTieuDeUserName">Tên đăng nhập:</string>
+    <string name="strHintUserName">Nhập tên đăng nhập ở đây...</string>
+    <string name="strPassword">Mật khẩu:</string>
+    <string name="strHintPassword">Nhập mật khẩu ở đây...</string>
+    <string name="strLogin">Đăng nhập</string>
+    <string name="strExit">Thoát</string>
+</resources>

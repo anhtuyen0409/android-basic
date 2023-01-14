@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Learn multi languages</string>
+    <string name="strTieuDeUserName">User name:</string>
+    <string name="strHintUserName">Enter user name here...</string>
+    <string name="strPassword">Password:</string>
+    <string name="strHintPassword">Enter pasword here...</string>
+    <string name="strLogin">Login</string>
+    <string name="strExit">Exit</string>
+</resources>
