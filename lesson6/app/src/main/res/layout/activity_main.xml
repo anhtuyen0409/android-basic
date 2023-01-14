@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đánh giá chất lượng nhà hàng"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radTuyetVoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tuyệt vời" />
+
+        <RadioButton
+            android:id="@+id/radKhaNgon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Khá ngon" />
+
+        <RadioButton
+            android:id="@+id/radTamOn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tạm ổn" />
+
+        <RadioButton
+            android:id="@+id/radDoTe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dở tệ" />
+    </RadioGroup>
+
+    <Button
+        android:onClick="xuLyDanhGia"
+        android:id="@+id/btnGui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Gửi" />
+
+    <TextView
+        android:id="@+id/txtKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
