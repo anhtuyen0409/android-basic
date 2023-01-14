@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HocSharePreference.iml" filepath="$PROJECT_DIR$/.idea/modules/HocSharePreference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HocSharePreference.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HocSharePreference.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HocSharePreference.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HocSharePreference.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HocSharePreference.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HocSharePreference.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HocSharePreference.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HocSharePreference.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
